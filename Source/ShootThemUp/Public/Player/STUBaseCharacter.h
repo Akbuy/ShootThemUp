@@ -16,7 +16,7 @@ class SHOOTTHEMUP_API ASTUBaseCharacter : public ACharacter
 
   public:
     // Sets default values for this character's properties
-    ASTUBaseCharacter();
+    ASTUBaseCharacter(const FObjectInitializer& ObjInit);
 
   protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
@@ -36,6 +36,9 @@ class SHOOTTHEMUP_API ASTUBaseCharacter : public ACharacter
 
     UFUNCTION(BlueprintCallable, Category = "Movement")
     bool IsRunning() const;
+
+    UFUNCTION(BlueprintCallable, Category = "Movement")
+    float GetMovementDirection() const;
 
   private:
     bool WantsToRun = false;
