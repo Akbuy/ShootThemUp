@@ -59,5 +59,4 @@ DECLARE_MULTICAST_DELEGATE_OneParam(FOnHealthChanged, float)
 
     void HealUpdate();
     void SetHealth(float NewHealth);
-
 };
