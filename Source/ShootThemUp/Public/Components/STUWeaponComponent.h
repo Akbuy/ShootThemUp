@@ -13,13 +13,13 @@ class SHOOTTHEMUP_API USTUWeaponComponent : public UActorComponent
 {
     GENERATED_BODY()
 
-  public:
+public:
     // Sets default values for this component's properties
     USTUWeaponComponent();
 
     void Fire();
 
-  protected:
+protected:
     UPROPERTY(EditDefaultsOnly, Category = "Damage")
     TSubclassOf<ASTUBaseWeapon> WeaponClass;
 
@@ -28,7 +28,7 @@ class SHOOTTHEMUP_API USTUWeaponComponent : public UActorComponent
 
     virtual void BeginPlay() override;
 
-  private:
+private:
     UPROPERTY()
     ASTUBaseWeapon* CurrentWeapon = nullptr;
 

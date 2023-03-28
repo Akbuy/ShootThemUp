@@ -25,22 +25,19 @@ void USTUWeaponComponent::BeginPlay()
 
 void USTUWeaponComponent::SpawnWeapon()
 {
-    if (!GetWorld())
-        return;
+    if (!GetWorld()) return;
     CurrentWeapon = GetWorld()->SpawnActor<ASTUBaseWeapon>(WeaponClass);
 
-    ACharacter *Character = Cast<ACharacter>(GetOwner());
-    if (!Character)
-        return;
-    if (!CurrentWeapon)
-        return;
+    ACharacter* Character = Cast<ACharacter>(GetOwner());
+    if (!Character) return;
+    if (!CurrentWeapon) return;
     FAttachmentTransformRules AttachmentRules(EAttachmentRule::SnapToTarget, false);
     CurrentWeapon->AttachToComponent(Character->GetMesh(), AttachmentRules, WeaponAttachPointName);
+    CurrentWeapon->SetOwner(Character);
 }
 
 void USTUWeaponComponent::Fire()
 {
-    if (!CurrentWeapon)
-        return;
+    if (!CurrentWeapon) return;
     CurrentWeapon->Fire();
 }
