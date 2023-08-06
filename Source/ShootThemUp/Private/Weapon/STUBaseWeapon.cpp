@@ -22,34 +22,19 @@ ASTUBaseWeapon::ASTUBaseWeapon()
 void ASTUBaseWeapon::BeginPlay()
 {
     Super::BeginPlay();
-    check(WeaponMesh)
+
+    check(WeaponMesh);
+    checkf(DefaultAmmo.Bullets > 0, TEXT("Bullets count couldn't be loss or equal zero"));
+    checkf(DefaultAmmo.Clips > 0, TEXT("Clips count couldn't be loss or equal zero"));
+
+    CurrentAmmo = DefaultAmmo;
 }
 
-void ASTUBaseWeapon::Fire()
-{
-    MakeShot();
-}
+void ASTUBaseWeapon::StartFire() {}
 
-void ASTUBaseWeapon::MakeShot()
-{
-    if (!GetWorld()) return;
+void ASTUBaseWeapon::StopFire() {}
 
-    FVector TraceStart, TraceEnd;
-    if (!GetTraceData(TraceStart, TraceEnd)) return;
-
-    FHitResult HitResult;
-    MakeHit(HitResult, TraceStart, TraceEnd);
-
-    if (HitResult.bBlockingHit)
-    {
-        DrawDebugLine(GetWorld(), GetMuzzleWorldLocation(), HitResult.ImpactPoint, FColor::Red, false, 3.0f, 0, 3.0f);
-        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.0f, 24, FColor::Red, false, 5.0f);
-    }
-    else
-    {
-        DrawDebugLine(GetWorld(), GetMuzzleWorldLocation(), TraceEnd, FColor::Red, false, 3.0f, 0, 3.0f);
-    }
-}
+void ASTUBaseWeapon::MakeShot() {}
 
 APlayerController* ASTUBaseWeapon::GetPlayerController() const
 {
@@ -78,7 +63,6 @@ bool ASTUBaseWeapon::GetTraceData(FVector& TraceStart, FVector& TraceEnd) const
     FVector ViewLocation;
     FRotator ViewRotation;
     if (!GetPlayerViewPoint(ViewLocation, ViewRotation)) return false;
-
     TraceStart = ViewLocation;
     const FVector ShootDirection = ViewRotation.Vector();
     TraceEnd = TraceStart + ShootDirection * TraceMaxDistance;
@@ -93,4 +77,48 @@ void ASTUBaseWeapon::MakeHit(FHitResult& HitResult, const FVector& TraceStart, c
     CollisionParams.AddIgnoredActor(GetOwner());
 
     GetWorld()->LineTraceSingleByChannel(HitResult, TraceStart, TraceEnd, ECollisionChannel::ECC_Visibility, CollisionParams);
+}
+
+void ASTUBaseWeapon::DecreaseAmmo()
+{
+    if (CurrentAmmo.Bullets == 0)
+    {
+        return;
+    }
+
+    CurrentAmmo.Bullets--;
+
+    if (IsClipEmpty() && !IsAmmoEmpty())
+    {
+        StopFire();
+        OnClipEmpty.Broadcast();
+    }
+}
+
+bool ASTUBaseWeapon::IsAmmoEmpty() const
+{
+    return !CurrentAmmo.Infinite && CurrentAmmo.Clips == 0 && IsClipEmpty();
+}
+
+bool ASTUBaseWeapon::IsClipEmpty() const
+{
+    return CurrentAmmo.Bullets == 0;
+}
+
+void ASTUBaseWeapon::ChangeClip()
+{
+    if (!CurrentAmmo.Infinite)
+    {
+        if (CurrentAmmo.Clips == 0)
+        {
+            return;
+        }
+        CurrentAmmo.Clips--;
+    }
+    CurrentAmmo.Bullets = DefaultAmmo.Bullets;
+}
+
+bool ASTUBaseWeapon::CanReload() const
+{
+    return CurrentAmmo.Bullets < DefaultAmmo.Bullets && CurrentAmmo.Clips > 0;
 }
