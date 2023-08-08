@@ -6,6 +6,8 @@
 #include "DrawDebugHelpers.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/Controller.h"
+#include "NiagaraFunctionLibrary.h"
+#include "NiagaraComponent.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogBaseWeapon, All, All)
 
@@ -75,6 +77,7 @@ void ASTUBaseWeapon::MakeHit(FHitResult& HitResult, const FVector& TraceStart, c
 
     FCollisionQueryParams CollisionParams;
     CollisionParams.AddIgnoredActor(GetOwner());
+    CollisionParams.bReturnPhysicalMaterial = true;
 
     GetWorld()->LineTraceSingleByChannel(HitResult, TraceStart, TraceEnd, ECollisionChannel::ECC_Visibility, CollisionParams);
 }
@@ -91,7 +94,7 @@ void ASTUBaseWeapon::DecreaseAmmo()
     if (IsClipEmpty() && !IsAmmoEmpty())
     {
         StopFire();
-        OnClipEmpty.Broadcast();
+        OnClipEmpty.Broadcast(this);
     }
 }
 
@@ -121,4 +124,49 @@ void ASTUBaseWeapon::ChangeClip()
 bool ASTUBaseWeapon::CanReload() const
 {
     return CurrentAmmo.Bullets < DefaultAmmo.Bullets && CurrentAmmo.Clips > 0;
+}
+
+bool ASTUBaseWeapon::IsAmmoFull() const
+{
+    return CurrentAmmo.Clips == DefaultAmmo.Clips &&  //
+           CurrentAmmo.Bullets == DefaultAmmo.Bullets;
+}
+
+bool ASTUBaseWeapon::TryToAddAmmo(int32 ClipsAmount)
+{
+    if (CurrentAmmo.Infinite || IsAmmoFull() || ClipsAmount <= 0) return false;
+
+    if (IsAmmoEmpty())
+    {
+        CurrentAmmo.Clips = FMath::Clamp(ClipsAmount, 0, DefaultAmmo.Clips + 1);
+        OnClipEmpty.Broadcast(this);
+    }
+    else if (CurrentAmmo.Clips < DefaultAmmo.Clips)
+    {
+        const auto NextClipsAmount = CurrentAmmo.Clips + ClipsAmount;
+        if (DefaultAmmo.Clips - NextClipsAmount >= 0)
+        {
+            CurrentAmmo.Clips = NextClipsAmount;
+        }
+        else
+        {
+            CurrentAmmo.Clips = DefaultAmmo.Clips;
+            CurrentAmmo.Bullets = DefaultAmmo.Bullets;
+        }
+    }
+    else
+    {
+        CurrentAmmo.Bullets = DefaultAmmo.Bullets;
+    }
+    return true;
+}
+
+UNiagaraComponent* ASTUBaseWeapon::SpawnMuzzleFX()
+{
+    return UNiagaraFunctionLibrary::SpawnSystemAttached(MuzzleFX,  //
+        WeaponMesh,                                                //
+        MuzzleSocketName,                                          //
+        FVector::ZeroVector,                                       //
+        FRotator::ZeroRotator,                                     //
+        EAttachLocation::SnapToTarget, true);
 }

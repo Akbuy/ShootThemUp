@@ -14,12 +14,9 @@
 
 DEFINE_LOG_CATEGORY_STATIC(BaseCharacterLog, All, All)
 
-// Sets default values
 ASTUBaseCharacter::ASTUBaseCharacter(const FObjectInitializer& ObjInit)
     : Super(ObjInit.SetDefaultSubobjectClass<USTUCharacterMovementComponent>(ACharacter::CharacterMovementComponentName))
 {
-    // Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need
-    // it.
     PrimaryActorTick.bCanEverTick = true;
 
     SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>("SpringArmComponent");
@@ -39,7 +36,6 @@ ASTUBaseCharacter::ASTUBaseCharacter(const FObjectInitializer& ObjInit)
     WeaponComponent = CreateDefaultSubobject<USTUWeaponComponent>("WeaponComponent");
 }
 
-// Called when the game starts or when spawned
 void ASTUBaseCharacter::BeginPlay()
 {
     Super::BeginPlay();
@@ -47,23 +43,25 @@ void ASTUBaseCharacter::BeginPlay()
     check(HealthComponent);
     check(HealthTextComponent);
     check(GetCharacterMovement());
+    check(GetMesh());
 
-    OnHealthChanged(HealthComponent->GetHealth());
+    OnHealthChanged(HealthComponent->GetHealth(), 0.0f);
     HealthComponent->OnDeath.AddUObject(this, &ASTUBaseCharacter::OnDeath);
     HealthComponent->OnHealthChanged.AddUObject(this, &ASTUBaseCharacter::OnHealthChanged);
 
     LandedDelegate.AddDynamic(this, &ASTUBaseCharacter::OnGroundLanded);
 }
 
-// Called every frame
+void ASTUBaseCharacter::OnHealthChanged(float Health, float DeltaHealth)
+{
+    HealthTextComponent->SetText(FText::FromString(FString::Printf(TEXT("%.0f"), Health)));
+}
+
 void ASTUBaseCharacter::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
-
-    const auto Health = HealthComponent->GetHealth();
 }
 
-// Called to bind functionality to input
 void ASTUBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
     Super::SetupPlayerInputComponent(PlayerInputComponent);
@@ -119,20 +117,18 @@ float ASTUBaseCharacter::GetMovementDirection() const
 
 void ASTUBaseCharacter::OnDeath()
 {
-    PlayAnimMontage(DeathAnimMontage);
+    // PlayAnimMontage(DeathAnimMontage);
     GetCharacterMovement()->DisableMovement();
-    SetLifeSpan(5.0f);
+    SetLifeSpan(LifeSpanOnDeath);
     if (Controller)
     {
         Controller->ChangeState(NAME_Spectating);
     }
-    GetCapsuleComponent()->SetCollisionResponseToAllChannels(ECR_Ignore);
-    WeaponComponent->StopFire(); 
-}
+    GetCapsuleComponent()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
+    WeaponComponent->StopFire();
 
-void ASTUBaseCharacter::OnHealthChanged(float Health)
-{
-    HealthTextComponent->SetText(FText::FromString(FString::Printf(TEXT("%.0f"), Health)));
+    GetMesh()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+    GetMesh()->SetSimulatePhysics(true);
 }
 
 void ASTUBaseCharacter::OnGroundLanded(const FHitResult& Hit)
