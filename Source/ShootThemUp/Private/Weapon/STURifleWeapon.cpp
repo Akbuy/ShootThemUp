@@ -21,9 +21,9 @@ void ASTURifleWeapon::BeginPlay()
 
 void ASTURifleWeapon::StartFire()
 {
-    InitMuzzleFX();
     GetWorldTimerManager().SetTimer(ShotTimerHandle, this, &ASTURifleWeapon::MakeShot, TimeBetweenShots, true);
     MakeShot();
+    InitMuzzleFX();
 }
 
 void ASTURifleWeapon::StopFire()
@@ -34,7 +34,11 @@ void ASTURifleWeapon::StopFire()
 
 void ASTURifleWeapon::MakeShot()
 {
-    if (!GetWorld() || IsAmmoEmpty()) return;
+    if (!GetWorld() || IsAmmoEmpty())
+    {
+        SetMuzzleFXVisibility(false);
+        return;
+    }
 
     FVector TraceStart, TraceEnd;
     if (!GetTraceData(TraceStart, TraceEnd)) return;
@@ -77,6 +81,7 @@ void ASTURifleWeapon::MakeDamage(FHitResult& HitResult)
 
 void ASTURifleWeapon::InitMuzzleFX()
 {
+    if (IsAmmoEmpty()) return;
     if (!MuzzleFXComponent)
     {
         MuzzleFXComponent = SpawnMuzzleFX();

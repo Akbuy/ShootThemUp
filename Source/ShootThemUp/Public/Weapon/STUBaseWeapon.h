@@ -32,6 +32,8 @@ public:
     FAmmoData GetAmmoData() const { return CurrentAmmo; }
 
     bool TryToAddAmmo(int32 ClipsAmount);
+    bool IsAmmoEmpty() const;
+    bool IsAmmoFull() const;
 
 protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
@@ -65,9 +67,7 @@ protected:
     virtual bool GetTraceData(FVector& TraceStart, FVector& TraceEnd) const;
 
     void DecreaseAmmo();
-    bool IsAmmoEmpty() const;
     bool IsClipEmpty() const;
-    bool IsAmmoFull() const;
 
     UNiagaraComponent* SpawnMuzzleFX();
 

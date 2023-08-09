@@ -11,18 +11,18 @@
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/LensFlare/Flare_02.uasset" 10
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/LensFlare/M_LensFlare_02.uasset" 11
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/ParticleSystems/Weapons/AssaultRifle/Impacts/P_AssaultRifle_IH.uasset" 12
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Meshes/Weapon/SM_MuzzleCone.uasset" 13
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Weapon/T_muzzle_flashes.uasset" 14
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Weapon/M_muzzle_flash_subUV.uasset" 15
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Noise/T_TileNoise.uasset" 16
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Mask/T_SquareMaskTightEdge.uasset" 17
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 18
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Weapon/M_MuzzleGlow.uasset" 19
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Smoke/M_SmokeBall.uasset" 20
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 21
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Ramp/M_SoftGradient_Muzzle.uasset" 22
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/LensFlare/T_Lensflare_01.uasset" 23
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/LensFlare/M_Lensflare_01.uasset" 24
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Smoke/M_SmokeBall.uasset" 13
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 14
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Ramp/M_SoftGradient_Muzzle.uasset" 15
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/LensFlare/T_Lensflare_01.uasset" 16
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/LensFlare/M_Lensflare_01.uasset" 17
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Meshes/Weapon/SM_MuzzleCone.uasset" 18
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Weapon/T_muzzle_flashes.uasset" 19
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Weapon/M_muzzle_flash_subUV.uasset" 20
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Noise/T_TileNoise.uasset" 21
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Mask/T_SquareMaskTightEdge.uasset" 22
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset" 23
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Weapon/M_MuzzleGlow.uasset" 24
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/ParticleSystems/Weapons/AssaultRifle/Muzzle/P_AssaultRifle_MF.uasset" 25
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Energy/T_EFX_Beam_Electricity_02.uasset" 26
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Ramp/T_FX_CameraDistort.uasset" 27
@@ -117,8 +117,8 @@
 "../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRange.uasset" 116
 "../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomRangeFloat.uasset" 117
 "../../Plugins/FX/Niagara/Content/Functions/LinearColor/HueShiftLinearColor.uasset" 118
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_UVFlippingMode.uasset" 119
-"../../Plugins/FX/Niagara/Content/Functions/Localspace/SimulationPosition.uasset" 120
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/SimulationPosition.uasset" 119
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_UVFlippingMode.uasset" 120
 "../../Plugins/FX/Niagara/Content/Modules/Spawn/Initialization/V2/InitializeParticle.uasset" 121
 "../../Plugins/FX/Niagara/Content/Modules/Solvers/SolveForcesAndVelocity.uasset" 122
 "../../Plugins/FX/Niagara/Content/Modules/Emitter/SpawnBurst_Instantaneous.uasset" 123
@@ -135,17 +135,17 @@
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Dev/NS_GroundImpact.uasset" 134
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Dev/NS_HeadImpact.uasset" 135
 "../../Plugins/FX/Niagara/Content/Enums/ENiagaraSphereDistributionMode.uasset" 136
-"../../Plugins/FX/Niagara/Content/Modules/Update/Size/ScaleSpriteSize.uasset" 137
-"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/GravityForce.uasset" 138
-"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/Drag.uasset" 139
-"../../Plugins/FX/Niagara/Content/Functions/RandomUnitVector.uasset" 140
-"../../Plugins/FX/Niagara/Content/Functions/RandomVector.uasset" 141
-"../../Plugins/FX/Niagara/Content/Functions/NormalizeDistanceRange.uasset" 142
-"../../Plugins/FX/Niagara/Content/Functions/DistanceBasedFalloff.uasset" 143
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/AddVelocityFromPoint.uasset" 144
-"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomPointInSphere.uasset" 145
-"../../Plugins/FX/Niagara/Content/Functions/SphericalToCartesianCoordinates.uasset" 146
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExpansionMode.uasset" 147
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraExpansionMode.uasset" 137
+"../../Plugins/FX/Niagara/Content/Modules/Update/Size/ScaleSpriteSize.uasset" 138
+"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/GravityForce.uasset" 139
+"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/Drag.uasset" 140
+"../../Plugins/FX/Niagara/Content/Functions/RandomUnitVector.uasset" 141
+"../../Plugins/FX/Niagara/Content/Functions/RandomVector.uasset" 142
+"../../Plugins/FX/Niagara/Content/Functions/NormalizeDistanceRange.uasset" 143
+"../../Plugins/FX/Niagara/Content/Functions/DistanceBasedFalloff.uasset" 144
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/AddVelocityFromPoint.uasset" 145
+"../../Plugins/FX/Niagara/Content/Functions/V2/CalculateRandomPointInSphere.uasset" 146
+"../../Plugins/FX/Niagara/Content/Functions/SphericalToCartesianCoordinates.uasset" 147
 "../../Plugins/FX/Niagara/Content/Modules/Spawn/Location/V2/SphereLocation.uasset" 148
 "../../Plugins/FX/Niagara/Content/DynamicInputs/TypeConversions/Vector2DFromFloat.uasset" 149
 "../../Plugins/FX/Niagara/Content/DynamicInputs/Helpers/SimulationPosition.uasset" 150
@@ -175,12 +175,12 @@
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/MaterialLayers/ML_Metal_Gray.uasset" 174
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/MaterialLayers/T_ExampleLayers_Metal02_N.uasset" 175
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_Metal_02.uasset" 176
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/MaterialLayers/ML_Metal_Copper.uasset" 177
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/MaterialLayers/ML_BoltMetal.uasset" 178
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_TintAllChannels.uasset" 179
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.uasset" 180
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 181
-"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_BakedNormal.uasset" 182
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_TintAllChannels.uasset" 177
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.uasset" 178
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 179
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_BakedNormal.uasset" 180
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/MaterialLayers/ML_Metal_Copper.uasset" 181
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/MaterialLayers/ML_BoltMetal.uasset" 182
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/MagGun_MatB.uasset" 183
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/MagGun_MatB_Inst2.uasset" 184
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/MagGunT1_shade.uasset" 185
@@ -190,371 +190,381 @@
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/MagGun_MatA_Inst3.uasset" 189
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Rifle.uasset" 190
 "../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/BP_STUBaseWeapon.uasset" 191
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 192
-"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 193
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 194
-"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 195
-"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 196
-"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 197
-"../../../Engine/Content/BasicShapes/Cone.uasset" 198
-"../../../Engine/Content/BasicShapes/Plane.uasset" 199
-"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 200
-"../../../Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset" 201
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 202
-"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 203
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 204
-"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 205
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 206
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 207
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 208
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 209
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 210
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 211
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 212
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 213
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 214
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 215
-"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 216
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 217
-"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 218
-"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 219
-"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 220
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 221
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 222
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 223
-"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 224
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 225
-"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 226
-"../../../Engine/Content/EditorResources/BSPVertex.uasset" 227
-"../../../Engine/Content/EditorResources/EmptyActor.uasset" 228
-"../../../Engine/Content/EditorResources/S_Actor.uasset" 229
-"../../../Engine/Content/EditorResources/S_Note.uasset" 230
-"../../../Engine/Content/EditorResources/S_Solver.uasset" 231
-"../../../Engine/Content/EditorResources/S_Terrain.uasset" 232
-"../../../Engine/Content/EditorResources/S_Trigger.uasset" 233
-"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 234
-"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 235
-"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 236
-"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 237
-"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 238
-"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 239
-"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset" 240
-"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 241
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 242
-"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 243
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 244
-"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 245
-"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 246
-"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 247
-"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 248
-"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 249
-"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 250
-"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 251
-"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 252
-"../../../Engine/Content/EngineFonts/Roboto.uasset" 253
-"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 254
-"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 255
-"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 256
-"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 257
-"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 258
-"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 259
-"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 260
-"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 261
-"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 262
-"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 263
-"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 264
-"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 265
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 266
-"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 267
-"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 268
-"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 269
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 270
-"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 271
-"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 272
-"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 273
-"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 274
-"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 275
-"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 276
-"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 277
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 278
-"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 279
-"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 280
-"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 281
-"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 282
-"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 283
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 284
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 285
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 286
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 287
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 288
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 289
-"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 290
-"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 291
-"../../../Engine/Content/EngineMeshes/Sphere.uasset" 292
-"../../../Engine/Content/EngineResources/Black.uasset" 293
-"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 294
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 295
-"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 296
-"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 297
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uasset" 298
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uasset" 299
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uasset" 300
-"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uasset" 301
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uasset" 302
-"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uasset" 303
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 304
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset" 305
-"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset" 306
-"../../../Engine/Content/EngineSounds/Master.uasset" 307
-"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 308
-"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 309
-"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 310
-"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 311
-"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 312
-"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 313
-"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 314
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 315
-"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 316
-"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 317
-"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 318
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 319
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 320
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 321
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 322
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 323
-"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 324
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 325
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 326
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 327
-"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 328
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 329
-"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 330
-"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 331
-"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 332
-"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 333
-"../../../Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial_Part2.uasset" 334
-"../../../Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial_Part3.uasset" 335
-"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 336
-"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 337
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/EQS/EQSContextSTUCharacter.uasset" 192
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/EQS/EQS_TestPawn.uasset" 193
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 194
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 195
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 196
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 197
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 198
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 199
+"../../../Engine/Content/BasicShapes/Cone.uasset" 200
+"../../../Engine/Content/BasicShapes/Plane.uasset" 201
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 202
+"../../../Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset" 203
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 204
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 205
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 206
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 207
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 208
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 209
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 210
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 211
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 212
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 213
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 214
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 215
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 216
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 217
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 218
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 219
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 220
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 221
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 222
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 223
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 224
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 225
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 226
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 227
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 228
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 229
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 230
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 231
+"../../../Engine/Content/EditorResources/S_Note.uasset" 232
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 233
+"../../../Engine/Content/EditorResources/S_Terrain.uasset" 234
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 235
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 236
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 237
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 238
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 239
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 240
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 241
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleUnlitTranslucent.uasset" 242
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 243
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 244
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 245
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 246
+"../../../Engine/Content/EngineDebugMaterials/VertexColorMaterial.uasset" 247
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 248
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 249
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 250
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 251
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 252
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 253
+"../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.uasset" 254
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 255
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 256
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 257
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 258
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 259
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 260
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 261
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 262
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 263
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 264
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 265
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 266
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 267
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 268
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 269
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 270
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 271
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 272
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 273
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 274
+"../../../Engine/Content/EngineMaterials/GizmoMaterial.uasset" 275
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 276
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 277
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 278
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 279
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 280
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 281
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 282
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 283
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 284
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 285
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 286
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 287
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 288
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 289
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 290
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 291
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 292
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 293
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 294
+"../../../Engine/Content/EngineResources/Black.uasset" 295
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 296
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 297
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 298
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 299
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseShape64.uasset" 300
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseShape64.uasset" 301
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_NoiseErosion.uasset" 302
+"../../../Engine/Content/EngineSky/VolumetricClouds/T_VolumeNoiseErosion32.uasset" 303
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudWeatherTexture.uasset" 304
+"../../../Engine/Content/EngineSky/VolumetricClouds/CloudGradientTexture.uasset" 305
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 306
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset" 307
+"../../../Engine/Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset" 308
+"../../../Engine/Content/EngineSounds/Master.uasset" 309
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 310
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 311
+"../../../Engine/Content/Maps/Templates/Thumbnails/TimeOfDay.uasset" 312
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 313
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 314
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 315
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 316
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 317
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 318
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 319
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 320
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 321
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 322
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 323
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 324
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 325
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 326
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 327
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 328
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 329
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 330
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 331
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 332
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 333
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 334
+"../../../Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/Blueprint_64x.uasset" 335
+"../../../Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial_Part2.uasset" 336
+"../../../Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial_Part3.uasset" 337
 "../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 338
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 339
-"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 340
-"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 341
-"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 342
-"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 343
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 344
-"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 345
-"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 346
-"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 347
-"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 348
-"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 349
-"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 350
-"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 351
-"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 352
-"../../../Engine/Content/BasicShapes/Cylinder.uasset" 353
-"../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 354
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 355
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 356
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 357
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 358
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 359
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 360
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 361
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 362
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 363
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 364
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 365
-"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 366
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 367
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 368
-"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 369
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 370
-"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 371
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 372
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 373
-"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 374
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/PhysMaterials/PhysMat_Ground.uasset" 375
-"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 376
-"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 377
-"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 378
-"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 379
-"../../../Engine/Content/BasicShapes/Cube.uasset" 380
-"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 381
-"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 382
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Levels/TestLevel_BuiltData.uasset" 383
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/SM_Health.uasset" 384
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/Materials/M_BaseGlow.uasset" 385
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/Materials/MI_GreenGlow.uasset" 386
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/BP_STUHealthPickup.uasset" 387
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/SM_Ammo.uasset" 388
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/Materials/MI_BlueGlow.uasset" 389
-"../../../Engine/Content/BasicShapes/Sphere.uasset" 390
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/Materials/MI_ProjectileGlow.uasset" 391
-"../../Plugins/FX/Niagara/Content/DynamicInputs/ScaleByCurve/ScaleVectorByCurve.uasset" 392
-"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/AccelerationForce.uasset" 393
-"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformOffset.uasset" 394
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/ScaleVelocity.uasset" 395
-"../../Plugins/FX/Niagara/Content/DynamicInputs/Angles/NormalizedAngleToDegrees.uasset" 396
-"../../Plugins/FX/Niagara/Content/Modules/Emitter/SpawnRate.uasset" 397
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraSUbUVAnimationMode.uasset" 398
-"../../Plugins/FX/Niagara/Content/Modules/Update/SubUV/SubUVAnimation.uasset" 399
-"../../Plugins/FX/Niagara/Content/DynamicInputs/ValueFromCurve/Vector2DFromCurve.uasset" 400
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 339
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 340
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 341
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 342
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 343
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 344
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 345
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 346
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 347
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 348
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 349
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 350
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 351
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 352
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 353
+"../../../Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_Emissive_Color.uasset" 354
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 355
+"../../Plugins/Lumin/MagicLeapPassableWorld/Content/MagicLeapARPinInfoActor.uasset" 356
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ObjectLocalBounds.uasset" 357
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 358
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackInteger3.uasset" 359
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/UnpackDirection.uasset" 360
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/game_wind_noise.uasset" 361
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset" 362
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWindMotion.uasset" 363
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBranchMotion.uasset" 364
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset" 365
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeWind.uasset" 366
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboard.uasset" 367
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 368
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeBillboardMaster.uasset" 369
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeCameraFacing.uasset" 370
+"../../Plugins/Editor/SpeedTreeImporter/Content/SpeedTree9/SpeedTreeMaster.uasset" 371
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 372
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 373
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 374
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 375
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset" 376
+"../../../Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset" 377
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 378
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 379
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 380
+"../../../Engine/Content/BasicShapes/Cube.uasset" 381
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 382
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 383
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Levels/TestLevel_BuiltData.uasset" 384
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 385
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 386
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 387
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 388
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 389
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 390
+"../../Plugins/FX/Niagara/Content/Modules/Update/Color/Color.uasset" 391
+"../../Plugins/FX/Niagara/Content/Functions/Spline/FindPositionOnBezierSpline.uasset" 392
+"../../Plugins/FX/Niagara/Content/Modules/Beams/UpdateBeam.uasset" 393
+"../../Plugins/FX/Niagara/Content/Functions/NormalizedExecutionIndex.uasset" 394
+"../../Plugins/FX/Niagara/Content/Modules/Beams/SpawnBeam.uasset" 395
+"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamWidth.uasset" 396
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformPosition.uasset" 397
+"../../Plugins/FX/Niagara/Content/DynamicInputs/Multiply/Multiply_VectorByFloat.uasset" 398
+"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamEmitterSetup.uasset" 399
+"../../Plugins/FX/Niagara/Content/DefaultAssets/DefaultRIbbonMaterial.uasset" 400
 "../../Plugins/FX/Niagara/Content/Modules/Spawn/Initialization/InitializeParticle.uasset" 401
-"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/UniformRangedFloat.uasset" 402
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_Smoke.uasset" 403
-"../../Plugins/FX/Niagara/Content/Functions/RandomPointInSphere.uasset" 404
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraTorusDistributionMode.uasset" 405
-"../../Plugins/FX/Niagara/Content/Modules/Spawn/Location/SphereLocation.uasset" 406
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRestitutionMergeType.uasset" 407
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraFrictionMergeType.uasset" 408
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCalculateRadiusOptions.uasset" 409
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_GPUCollisionType.uasset" 410
-"../../Plugins/FX/Niagara/Content/Enums/ENiagara_CPUCollisionType.uasset" 411
-"../../Plugins/FX/Niagara/Content/Modules/Collision/SceneDepthTest.uasset" 412
-"../../Plugins/FX/Niagara/Content/Modules/Collision/NiagaraDistanceFieldCollisions.uasset" 413
-"../../Plugins/FX/Niagara/Content/Functions/Collision/RandomizeCollisionNormals.uasset" 414
-"../../Plugins/FX/Niagara/Content/Functions/Collision/PlaneSphereCollisionDetection.uasset" 415
-"../../Plugins/FX/Niagara/Content/Functions/ReflectVector.uasset" 416
-"../../Plugins/FX/Niagara/Content/Functions/ProjectVectorOnPlane.uasset" 417
-"../../Plugins/FX/Niagara/Content/Functions/Math/CentimeterMeterConversion.uasset" 418
-"../../Plugins/FX/Niagara/Content/Modules/Collision/CollisionQueryAndResponse.uasset" 419
-"../../Plugins/FX/Niagara/Content/Functions/Helpers/DoOnce_fn.uasset" 420
-"../../Plugins/FX/Niagara/Content/Functions/Rotation/AxisAngleToQuaternion.uasset" 421
-"../../Plugins/FX/Niagara/Content/Functions/Rotation/MultiplyQuaternion.uasset" 422
-"../../Plugins/FX/Niagara/Content/Functions/CalculateRadiusFromSpriteSize.uasset" 423
-"../../Plugins/FX/Niagara/Content/Functions/CalculateMeshRadius.uasset" 424
-"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformPosition.uasset" 425
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCollisionRadiusOptions.uasset" 426
-"../../Plugins/FX/Niagara/Content/Modules/Collision/Collision.uasset" 427
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_Fountain.uasset" 428
-"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/UniformRangedVector2D.uasset" 429
-"../../Plugins/FX/Niagara/Content/Modules/Update/Orientation/SpriteRotationRate.uasset" 430
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_Electric.uasset" 431
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_CoreBlue.uasset" 432
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NS_ProjectileTrace.uasset" 433
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Smoke.uasset" 434
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Flash.uasset" 435
-"../../Plugins/FX/Niagara/Content/DynamicInputs/ScaleByCurve/ScaleFloatByCurve.uasset" 436
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Fireball.uasset" 437
-"../../Plugins/FX/Niagara/Content/Enums/ENiagaraMassByVolume.uasset" 438
-"../../Plugins/FX/Niagara/Content/Modules/Update/Mass/CalculateSizeAndRotationalInertiaByMass.uasset" 439
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Burst.uasset" 440
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NS_ProjectileExplosion.uasset" 441
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Weapon/T_bullet_hole_2.uasset" 442
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Water/distortion_01.uasset" 443
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Weapon/M_Impact_Decal.uasset" 444
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/BP_STUProjectile.uasset" 445
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Muzzles/NE_LauncherFlash.uasset" 446
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Muzzles/NS_LauncherMuzzle.uasset" 447
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/LauncherMainIcon.uasset" 448
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/LauncherCrossHair.uasset" 449
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Launcher_Skeleton.uasset" 450
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT2_shade.uasset" 451
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT2_section.uasset" 452
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/Launcher_02_N.uasset" 453
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatB.uasset" 454
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatB_Inst.uasset" 455
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT1_shade.uasset" 456
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT1_section.uasset" 457
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/Launcher_01_N.uasset" 458
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatA.uasset" 459
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatA_Inst.uasset" 460
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Launcher.uasset" 461
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/BP_STULauncherWeapon.uasset" 462
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/BP_STUAmmoPickup.uasset" 463
-"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 464
-"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 465
-"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 466
-"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 467
-"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 468
-"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 469
-"../../Plugins/FX/Niagara/Content/Modules/Update/Color/Color.uasset" 470
-"../../Plugins/FX/Niagara/Content/Functions/Spline/FindPositionOnBezierSpline.uasset" 471
-"../../Plugins/FX/Niagara/Content/Modules/Beams/UpdateBeam.uasset" 472
-"../../Plugins/FX/Niagara/Content/Functions/NormalizedExecutionIndex.uasset" 473
-"../../Plugins/FX/Niagara/Content/Modules/Beams/SpawnBeam.uasset" 474
-"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamWidth.uasset" 475
-"../../Plugins/FX/Niagara/Content/DynamicInputs/Multiply/Multiply_VectorByFloat.uasset" 476
-"../../Plugins/FX/Niagara/Content/Modules/Beams/BeamEmitterSetup.uasset" 477
-"../../Plugins/FX/Niagara/Content/DefaultAssets/DefaultRIbbonMaterial.uasset" 478
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Rifle/NE_RifleBeam.uasset" 479
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Rifle/NS_RifleBeam.uasset" 480
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Muzzles/NS_RifleMuzzle.uasset" 481
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_ShortBurst2.uasset" 482
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_ShortBurst1.uasset" 483
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_CoreFast.uasset" 484
-"../../Plugins/FX/Niagara/Content/Modules/Update/Size/ScaleSpriteSizeBySpeed.uasset" 485
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_BurstOut.uasset" 486
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleHeadImpact.uasset" 487
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/RifleMainIcon.uasset" 488
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/RifleCrossHair.uasset" 489
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleGroundmpact.uasset" 490
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleDefaultImpact.uasset" 491
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleBodyImpact.uasset" 492
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/PhysMaterials/PhysMat_Head.uasset" 493
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/PhysMaterials/PhysMat_Body.uasset" 494
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/BP_STURifleWeapon.uasset" 495
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/BP_DamageCameraShake.uasset" 496
-"../../../Engine/Content/EngineMeshes/Humanoid.uasset" 497
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/HeroTPP/HeroTPP_Skeleton.uasset" 498
-"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 499
-"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 500
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Reload.uasset" 501
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_RifleReload.uasset" 502
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Launcher_Reload.uasset" 503
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_LauncherReload.uasset" 504
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Equip.uasset" 505
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_Equip.uasset" 506
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Death.uasset" 507
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_Death.uasset" 508
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/RoadieRun_Fwd.uasset" 509
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Idle.uasset" 510
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/BS_LocomotionRun.uasset" 511
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Rt.uasset" 512
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Lt.uasset" 513
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Fwd.uasset" 514
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Bwd.uasset" 515
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/BS_LocomotionWalk.uasset" 516
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetUp.uasset" 517
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetRightUp.uasset" 518
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetRightDown.uasset" 519
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetRight.uasset" 520
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetLeftUp.uasset" 521
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetLeftDown.uasset" 522
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetLeft.uasset" 523
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetFwd.uasset" 524
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetDown.uasset" 525
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AO_BaseCharacter.uasset" 526
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/JumpStart.uasset" 527
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/JumpLoop.uasset" 528
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/JumpEnd.uasset" 529
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/ABP_BaseCharacter.uasset" 530
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/HeroTPP/HeroTPP_Physics.uasset" 531
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Tiles/T_Sctraches_01.uasset" 532
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_N.uasset" 533
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_Metal_01.uasset" 534
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_M_03tga.uasset" 535
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_M.uasset" 536
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_Fabric_N_01.uasset" 537
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_D.uasset" 538
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_02_M.uasset" 539
-"../../../Engine/Content/EditorShellMaterials/T_Base.uasset" 540
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Rubber_light.uasset" 541
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Rubber_dark.uasset" 542
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Metal_Painted.uasset" 543
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Metal_light.uasset" 544
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Glass.uasset" 545
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Emissive_Custom.uasset" 546
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Base.uasset" 547
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/HeroTPP.uasset" 548
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/HeroTPP/HeroTPP.uasset" 549
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/BP_STUBaseCharacter.uasset" 550
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/WBP_SpectatorHUD.uasset" 551
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/WBP_STUPlayerHUD.uasset" 552
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/BP_STUGameHUD.uasset" 553
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/BP_STUSpectatorPawn.uasset" 554
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/BP_STUPlayerController.uasset" 555
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/BP_ShootThemUpGameModeBase.uasset" 556
-"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Levels/TestLevel.umap" 557
-"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 558
-"../../../Engine/Content/Maps/Entry.umap" 559
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Rifle/NE_RifleBeam.uasset" 402
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Rifle/NS_RifleBeam.uasset" 403
+"../../Plugins/FX/Niagara/Content/Modules/Emitter/SpawnRate.uasset" 404
+"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/UniformRangedVector2D.uasset" 405
+"../../Plugins/FX/Niagara/Content/Modules/Update/Orientation/SpriteRotationRate.uasset" 406
+"../../Plugins/FX/Niagara/Content/DynamicInputs/ValueFromCurve/Vector2DFromCurve.uasset" 407
+"../../Plugins/FX/Niagara/Content/DynamicInputs/UniformRange/UniformRangedFloat.uasset" 408
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Muzzles/NE_LauncherFlash.uasset" 409
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Muzzles/NS_RifleMuzzle.uasset" 410
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraSUbUVAnimationMode.uasset" 411
+"../../Plugins/FX/Niagara/Content/Modules/Update/SubUV/SubUVAnimation.uasset" 412
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_ShortBurst2.uasset" 413
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_ShortBurst1.uasset" 414
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_CoreFast.uasset" 415
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraRestitutionMergeType.uasset" 416
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraMassByVolume.uasset" 417
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraFrictionMergeType.uasset" 418
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCalculateRadiusOptions.uasset" 419
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_GPUCollisionType.uasset" 420
+"../../Plugins/FX/Niagara/Content/Enums/ENiagara_CPUCollisionType.uasset" 421
+"../../Plugins/FX/Niagara/Content/Modules/Update/Size/ScaleSpriteSizeBySpeed.uasset" 422
+"../../Plugins/FX/Niagara/Content/Modules/Update/Mass/CalculateSizeAndRotationalInertiaByMass.uasset" 423
+"../../Plugins/FX/Niagara/Content/Modules/Collision/SceneDepthTest.uasset" 424
+"../../Plugins/FX/Niagara/Content/Modules/Collision/NiagaraDistanceFieldCollisions.uasset" 425
+"../../Plugins/FX/Niagara/Content/Functions/Collision/RandomizeCollisionNormals.uasset" 426
+"../../Plugins/FX/Niagara/Content/Functions/Collision/PlaneSphereCollisionDetection.uasset" 427
+"../../Plugins/FX/Niagara/Content/Functions/ReflectVector.uasset" 428
+"../../Plugins/FX/Niagara/Content/Functions/ProjectVectorOnPlane.uasset" 429
+"../../Plugins/FX/Niagara/Content/Functions/Math/CentimeterMeterConversion.uasset" 430
+"../../Plugins/FX/Niagara/Content/Modules/Collision/CollisionQueryAndResponse.uasset" 431
+"../../Plugins/FX/Niagara/Content/Functions/Helpers/DoOnce_fn.uasset" 432
+"../../Plugins/FX/Niagara/Content/Functions/Rotation/MultiplyQuaternion.uasset" 433
+"../../Plugins/FX/Niagara/Content/Functions/Rotation/AxisAngleToQuaternion.uasset" 434
+"../../Plugins/FX/Niagara/Content/Functions/CalculateRadiusFromSpriteSize.uasset" 435
+"../../Plugins/FX/Niagara/Content/Functions/CalculateMeshRadius.uasset" 436
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraCollisionRadiusOptions.uasset" 437
+"../../Plugins/FX/Niagara/Content/Modules/Collision/Collision.uasset" 438
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NE_BurstOut.uasset" 439
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleHeadImpact.uasset" 440
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleGroundmpact.uasset" 441
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleDefaultImpact.uasset" 442
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Impacts/NS_RifleBodyImpact.uasset" 443
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/RifleCrossHair.uasset" 444
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/PhysMaterials/PhysMat_Ground.uasset" 445
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/RifleMainIcon.uasset" 446
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/PhysMaterials/PhysMat_Head.uasset" 447
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/PhysMaterials/PhysMat_Body.uasset" 448
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Weapon/T_bullet_hole_2.uasset" 449
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Textures/Water/distortion_01.uasset" 450
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Effects/Materials/Weapon/M_Impact_Decal.uasset" 451
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/BP_STURifleWeapon.uasset" 452
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/BP_STUAIController.uasset" 453
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/EQS/EQS_RandomRoam.uasset" 454
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/EQS/EQS_NextToEnemyLocation.uasset" 455
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/EQS/EQS_FindHealthPickup.uasset" 456
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/EQS/EQS_FindAmmoPickup.uasset" 457
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/BB_STUCharacter.uasset" 458
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/BT_STUCharacter.uasset" 459
+"../../../Engine/Content/EngineMeshes/Humanoid.uasset" 460
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/HeroTPP/HeroTPP_Skeleton.uasset" 461
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 462
+"../../../Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset" 463
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Reload.uasset" 464
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_RifleReload.uasset" 465
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Launcher_Reload.uasset" 466
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_LauncherReload.uasset" 467
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Equip.uasset" 468
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_Equip.uasset" 469
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/RoadieRun_Fwd.uasset" 470
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Idle.uasset" 471
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/BS_LocomotionRun.uasset" 472
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Rt.uasset" 473
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Lt.uasset" 474
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Fwd.uasset" 475
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Run_Bwd.uasset" 476
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/BS_LocomotionWalk.uasset" 477
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetUp.uasset" 478
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetRightUp.uasset" 479
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetRightDown.uasset" 480
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetRight.uasset" 481
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetLeftUp.uasset" 482
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetLeftDown.uasset" 483
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetLeft.uasset" 484
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetFwd.uasset" 485
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/AimOffsetDown.uasset" 486
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AO_BaseCharacter.uasset" 487
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/JumpStart.uasset" 488
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/JumpLoop.uasset" 489
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/JumpEnd.uasset" 490
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/ABP_BaseCharacter.uasset" 491
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 492
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/Materials/M_BaseGlow.uasset" 493
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/Materials/MI_ProjectileGlow.uasset" 494
+"../../Plugins/FX/Niagara/Content/DynamicInputs/ScaleByCurve/ScaleVectorByCurve.uasset" 495
+"../../Plugins/FX/Niagara/Content/Modules/Update/Forces/AccelerationForce.uasset" 496
+"../../Plugins/FX/Niagara/Content/Functions/Localspace/TransformOffset.uasset" 497
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Velocity/ScaleVelocity.uasset" 498
+"../../Plugins/FX/Niagara/Content/DynamicInputs/Angles/NormalizedAngleToDegrees.uasset" 499
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_Smoke.uasset" 500
+"../../Plugins/FX/Niagara/Content/Functions/RandomPointInSphere.uasset" 501
+"../../Plugins/FX/Niagara/Content/Enums/ENiagaraTorusDistributionMode.uasset" 502
+"../../Plugins/FX/Niagara/Content/Modules/Spawn/Location/SphereLocation.uasset" 503
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_Fountain.uasset" 504
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_Electric.uasset" 505
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NE_CoreBlue.uasset" 506
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Trace/Projectile/NS_ProjectileTrace.uasset" 507
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Smoke.uasset" 508
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Flash.uasset" 509
+"../../Plugins/FX/Niagara/Content/DynamicInputs/ScaleByCurve/ScaleFloatByCurve.uasset" 510
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Fireball.uasset" 511
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NE_Burst.uasset" 512
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Projectile/NS_ProjectileExplosion.uasset" 513
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/BP_STUProjectile.uasset" 514
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/Muzzles/NS_LauncherMuzzle.uasset" 515
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/LauncherMainIcon.uasset" 516
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/Images/LauncherCrossHair.uasset" 517
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Launcher_Skeleton.uasset" 518
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT2_shade.uasset" 519
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT2_section.uasset" 520
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/Launcher_02_N.uasset" 521
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatB.uasset" 522
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatB_Inst.uasset" 523
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT1_shade.uasset" 524
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/LauncherT1_section.uasset" 525
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Textures/Launcher_01_N.uasset" 526
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatA.uasset" 527
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Materials/Launcher_MatA_Inst.uasset" 528
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Weapons/Launcher.uasset" 529
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Weapon/BP_STULauncherWeapon.uasset" 530
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/VFX/BP_DamageCameraShake.uasset" 531
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/HeroTPP/HeroTPP_Physics.uasset" 532
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Tiles/T_Sctraches_01.uasset" 533
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_N.uasset" 534
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_Metal_01.uasset" 535
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_M_03tga.uasset" 536
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_M.uasset" 537
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_Fabric_N_01.uasset" 538
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_D.uasset" 539
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Textures/Chr_FPS_02_M.uasset" 540
+"../../../Engine/Content/EditorShellMaterials/T_Base.uasset" 541
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Rubber_light.uasset" 542
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Rubber_dark.uasset" 543
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Metal_Painted.uasset" 544
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Metal_light.uasset" 545
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Glass.uasset" 546
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Emissive_Custom.uasset" 547
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/ML_Base.uasset" 548
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/Materials/HeroTPP.uasset" 549
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Characters/HeroTPP/HeroTPP.uasset" 550
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/AI/BP_STUAICharacter.uasset" 551
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/SM_Health.uasset" 552
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/Materials/MI_GreenGlow.uasset" 553
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/BP_STUHealthPickup.uasset" 554
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/SM_Ammo.uasset" 555
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/StaticMeshes/Materials/MI_BlueGlow.uasset" 556
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Pickups/BP_STUAmmoPickup.uasset" 557
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/WBP_SpectatorHUD.uasset" 558
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/WBP_STUPlayerHUD.uasset" 559
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/UI/BP_STUGameHUD.uasset" 560
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/BP_STUSpectatorPawn.uasset" 561
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/BP_STUPlayerController.uasset" 562
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/ExternalContent/Animations/TTP_Animations/Death.uasset" 563
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/Animation/AM_Death.uasset" 564
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Player/BP_STUBaseCharacter.uasset" 565
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/BP_ShootThemUpGameModeBase.uasset" 566
+"../../../../../../Users/SU/Documents/Unreal Projects/ShootThemUp/Content/Levels/TestLevel.umap" 567
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 568
+"../../../Engine/Content/Maps/Entry.umap" 569

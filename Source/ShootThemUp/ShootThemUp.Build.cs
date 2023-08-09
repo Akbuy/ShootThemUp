@@ -8,18 +8,25 @@ public class ShootThemUp : ModuleRules
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] { 
-            "Core", 
-            "CoreUObject", 
-            "Engine", 
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "Core",
+            "CoreUObject",
+            "Engine",
             "InputCore",
             "Niagara",
-            "PhysicsCore"
+            "PhysicsCore",
+            "GameplayTasks",
+            "NavigationSystem"
         });
 
         PrivateDependencyModuleNames.AddRange(new string[] { });
 
         PublicIncludePaths.AddRange(new string[] {
+            "ShootThemUp/Public/AI",
+            "ShootThemUp/Public/AI/Decorators",
+            "ShootThemUp/Public/AI/EQS",
+            "ShootThemUp/Public/AI/Services",
+            "ShootThemUp/Public/AI/Tasks",
             "ShootThemUp/Public/Animations",
             "ShootThemUp/Public/Components",
             "ShootThemUp/Public/Dev",
