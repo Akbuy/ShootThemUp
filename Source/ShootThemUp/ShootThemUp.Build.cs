@@ -30,6 +30,8 @@ public class ShootThemUp : ModuleRules
             "ShootThemUp/Public/Animations",
             "ShootThemUp/Public/Components",
             "ShootThemUp/Public/Dev",
+            "ShootThemUp/Public/Menu",
+            "ShootThemUp/Public/Menu/UI",
             "ShootThemUp/Public/Pickups",
             "ShootThemUp/Public/Player",
             "ShootThemUp/Public/UI",
