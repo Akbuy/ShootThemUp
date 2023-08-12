@@ -12,10 +12,8 @@ void ASTULauncherWeapon::StartFire()
 
 void ASTULauncherWeapon::MakeShot()
 {
-    if (!GetWorld())
-    {
-        return;
-    }
+    if (!GetWorld()) return;
+
     if (IsAmmoEmpty())
     {
         StopFire();
@@ -49,4 +47,7 @@ void ASTULauncherWeapon::MakeShot()
     DecreaseAmmo();
     SpawnMuzzleFX();
     UGameplayStatics::SpawnSoundAttached(FireSound, WeaponMesh, MuzzleSocketName);
+   
+    // just for setting IsFiring to false
+    StopFire();
 }

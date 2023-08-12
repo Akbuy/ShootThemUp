@@ -28,7 +28,7 @@ protected:
     UProjectileMovementComponent* MovementComponent;
 
     UPROPERTY(EditDefaultsOnly, Category = "Weapon")
-    float DamageRadial = 200.0f;
+    float DamageRadius = 200.0f;
 
     UPROPERTY(EditDefaultsOnly, Category = "Weapon")
     float DamageAmount = 50.0f;

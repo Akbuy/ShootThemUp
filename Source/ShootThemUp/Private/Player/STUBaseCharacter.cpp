@@ -28,6 +28,7 @@ void ASTUBaseCharacter::BeginPlay()
 
     check(HealthComponent);
     check(GetCharacterMovement());
+    check(GetCapsuleComponent());
     check(GetMesh());
 
     OnHealthChanged(HealthComponent->GetHealth(), 0.0f);
@@ -67,6 +68,7 @@ void ASTUBaseCharacter::OnDeath()
 
     GetCapsuleComponent()->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
     WeaponComponent->StopFire();
+    WeaponComponent->Zoom(false);
 
     GetMesh()->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
     GetMesh()->SetSimulatePhysics(true);
@@ -76,14 +78,13 @@ void ASTUBaseCharacter::OnDeath()
 
 void ASTUBaseCharacter::OnGroundLanded(const FHitResult& Hit)
 {
-    const auto FallVelocityZ = -GetCharacterMovement()->Velocity.Z;
-    UE_LOG(BaseCharacterLog, Display, TEXT("On landed: %f"), FallVelocityZ);
-
+    const auto FallVelocityZ = -GetVelocity().Z;
     if (FallVelocityZ < LandedDamageVelocity.X) return;
 
-    const auto FinalDamage = FMath::GetMappedRangeValueClamped(LandedDamageVelocity, LandedDamage, FallVelocityZ);
-    UE_LOG(BaseCharacterLog, Display, TEXT("FinalDamage: %f"), FinalDamage);
-    TakeDamage(FinalDamage, FDamageEvent{}, nullptr, nullptr);
+    const auto FallDamage = FMath::GetMappedRangeValueClamped(LandedDamageVelocity, LandedDamage, FallVelocityZ);
+    TakeDamage(FallDamage, FPointDamageEvent{}, nullptr, nullptr);
+
+    UE_LOG(BaseCharacterLog, Display, TEXT("Player %s recived landed damage: %f"), *GetName(), FallDamage);
 }
 
 void ASTUBaseCharacter::SetPlayerColor(const FLinearColor& Color)
@@ -92,4 +93,18 @@ void ASTUBaseCharacter::SetPlayerColor(const FLinearColor& Color)
     if (!MaterialInstance) return;
 
     MaterialInstance->SetVectorParameterValue(MaterialColorName, Color);
+}
+
+void ASTUBaseCharacter::TurnOff()
+{
+    WeaponComponent->StopFire();
+    WeaponComponent->Zoom(false);
+    Super::TurnOff();
+}
+
+void ASTUBaseCharacter::Reset()
+{
+    WeaponComponent->StopFire();
+    WeaponComponent->Zoom(false);
+    Super::Reset();
 }

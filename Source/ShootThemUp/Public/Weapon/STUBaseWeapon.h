@@ -24,6 +24,7 @@ public:
 
     virtual void StartFire();
     virtual void StopFire();
+    bool IsFiring() const;
 
     void ChangeClip();
     bool CanReload() const;
@@ -34,6 +35,8 @@ public:
     bool TryToAddAmmo(int32 ClipsAmount);
     bool IsAmmoEmpty() const;
     bool IsAmmoFull() const;
+
+    virtual void Zoom(bool Enabled);
 
 protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
@@ -56,6 +59,8 @@ protected:
 
     UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Sound")
     USoundCue* FireSound;
+
+    bool FireInProgress = false;
 
     virtual void BeginPlay() override;
 

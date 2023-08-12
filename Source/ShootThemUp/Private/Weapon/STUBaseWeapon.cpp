@@ -32,9 +32,20 @@ void ASTUBaseWeapon::BeginPlay()
     CurrentAmmo = DefaultAmmo;
 }
 
-void ASTUBaseWeapon::StartFire() {}
+void ASTUBaseWeapon::StartFire() 
+{
+    FireInProgress = true;
+}
 
-void ASTUBaseWeapon::StopFire() {}
+void ASTUBaseWeapon::StopFire() 
+{
+    FireInProgress = false;
+}
+
+bool ASTUBaseWeapon::IsFiring() const
+{
+    return FireInProgress;
+}
 
 void ASTUBaseWeapon::MakeShot() {}
 
@@ -79,8 +90,8 @@ void ASTUBaseWeapon::MakeHit(FHitResult& HitResult, const FVector& TraceStart, c
     if (!GetWorld()) return;
 
     FCollisionQueryParams CollisionParams;
-    CollisionParams.AddIgnoredActor(GetOwner());
     CollisionParams.bReturnPhysicalMaterial = true;
+    CollisionParams.AddIgnoredActor(GetOwner());
 
     GetWorld()->LineTraceSingleByChannel(HitResult, TraceStart, TraceEnd, ECollisionChannel::ECC_Visibility, CollisionParams);
 }
@@ -173,3 +184,5 @@ UNiagaraComponent* ASTUBaseWeapon::SpawnMuzzleFX()
         FRotator::ZeroRotator,                                     //
         EAttachLocation::SnapToTarget, true);
 }
+
+void ASTUBaseWeapon::Zoom(bool Enabled) {}

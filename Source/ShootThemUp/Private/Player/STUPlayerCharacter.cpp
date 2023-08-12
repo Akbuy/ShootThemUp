@@ -76,10 +76,14 @@ void ASTUPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInput
     PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASTUPlayerCharacter::Jump);
     PlayerInputComponent->BindAction("Run", IE_Pressed, this, &ASTUPlayerCharacter::OnStartRunning);
     PlayerInputComponent->BindAction("Run", IE_Released, this, &ASTUPlayerCharacter::OnEndRunning);
-    PlayerInputComponent->BindAction("Fire", IE_Pressed, WeaponComponent, &USTUWeaponComponent::StartFire);
+    PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ASTUPlayerCharacter::OnStartFire);
     PlayerInputComponent->BindAction("Fire", IE_Released, WeaponComponent, &USTUWeaponComponent::StopFire);
     PlayerInputComponent->BindAction("NextWeapon", IE_Pressed, WeaponComponent, &USTUWeaponComponent::NextWeapon);
     PlayerInputComponent->BindAction("Reload", IE_Pressed, WeaponComponent, &USTUWeaponComponent::Reload);
+
+    DECLARE_DELEGATE_OneParam(FZoomInputSignature, bool);
+    PlayerInputComponent->BindAction<FZoomInputSignature>("Zoom", IE_Pressed, WeaponComponent, &USTUWeaponComponent::Zoom, true);
+    PlayerInputComponent->BindAction<FZoomInputSignature>("Zoom", IE_Released, WeaponComponent, &USTUWeaponComponent::Zoom, false);
 }
 
 void ASTUPlayerCharacter::MoveForward(float Amount)
@@ -87,6 +91,11 @@ void ASTUPlayerCharacter::MoveForward(float Amount)
     IsMovingForward = Amount > 0.0f;
     if (Amount == 0.0f) return;
     AddMovementInput(GetActorForwardVector(), Amount);
+
+    if (IsRunning() && WeaponComponent->IsFiring())
+    {
+        WeaponComponent->StopFire();
+    }
 }
 
 void ASTUPlayerCharacter::MoveRight(float Amount)
@@ -98,6 +107,10 @@ void ASTUPlayerCharacter::MoveRight(float Amount)
 void ASTUPlayerCharacter::OnStartRunning()
 {
     WantsToRun = true;
+    if (IsRunning())
+    {
+        WeaponComponent->StopFire();
+    }
 }
 
 void ASTUPlayerCharacter::OnEndRunning()
@@ -117,4 +130,10 @@ void ASTUPlayerCharacter::OnDeath()
     {
         Controller->ChangeState(NAME_Spectating);
     }
+}
+
+void ASTUPlayerCharacter::OnStartFire()
+{
+    if (IsRunning()) return;
+    WeaponComponent->StartFire();
 }

@@ -28,20 +28,22 @@ protected:
     USoundCue* PickupTakenSound;
 
     virtual void BeginPlay() override;
-
     virtual void NotifyActorBeginOverlap(AActor* OtherActor) override;
+    virtual void NotifyActorEndOverlap(AActor* OtherActor) override;
 
 public:
     virtual void Tick(float DeltaTime) override;
-
     bool CouldBeTaken() const;
 
 private:
     float RotationYaw = 0.0f;
-
     FTimerHandle RespawnTimerHandle;
 
+    UPROPERTY()
+    TArray<APawn*> OverlappingPawns;
+
     virtual bool GivePickupTo(APawn* PlayerPawn);
+
     void PickupWasTaken();
     void Respawn();
     void GenerateRotationYaw();
